@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <iostream>
-using namespace std;
-
 class linkedlist
 {
 private:
@@ -197,18 +193,3 @@ public:
     }
 };
 
-int main()
-{
-    linkedlist l;
-    for (int i = 0; i < 5; i++)
-    {
-        l.enqueue(i);
-    }
-
-    l.deletegiven(0);
-    l.printlist();
-
-   
-
-    return 0;
-}
